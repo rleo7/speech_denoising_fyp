@@ -1,4 +1,4 @@
 data/**/*.wav
-__pycache__/
-data/
+data/**/*.mp3
+__pycache__
 saved_models
