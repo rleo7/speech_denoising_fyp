@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
-from torch.nn.utils import rnn
+# import torch.nn.functional as F
+# from torch.nn.utils import rnn
 from sru import SRU
 
 class WaveCRN(nn.Module):
