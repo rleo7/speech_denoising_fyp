@@ -4,3 +4,5 @@ numpy==2.2.3
 pystoi==0.4.1
 pesq==0.0.4
 sru==2.6.0
+pyyaml==6.0.2
+matplotlib==3.10.0

@@ -1,0 +1,8 @@
+name: fyp
+channels:
+  - defaults
+dependencies:
+  - ffmpeg=6.1.1
+  - pip
+  - pip:
+    - -r requirements.txt
