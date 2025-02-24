@@ -4,8 +4,9 @@
 # data/**/*.zip
 # data/**/*.tar.gz
 data/**/*.*
-__pycache__/
+models/**/*.zip
+models/**/*.tar.gz
+__pycache__
 saved_models
 venv
 .conda
-models/**/*.zip
