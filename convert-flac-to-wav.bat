@@ -1,0 +1,2 @@
+for /R %%A in (*.flac) do (ffmpeg -i "%%A" -c:a pcm_s16le -ar 16000 -ac 1 "%%~dpnA.wav") && (del /f "%%A")
+@REM for /R %A in (*.flac) do (ffmpeg -i "%A" -c:a pcm_s16le -ar 16000 -ac 1 "%~dpnA.wav") && (del /f "%A")
