@@ -1,7 +1,11 @@
-data/**/*.wav
-data/**/*.flac
-data/**/*.mp3
+# data/**/*.wav
+# data/**/*.flac
+# data/**/*.mp3
+# data/**/*.zip
+# data/**/*.tar.gz
+data/**/*.*
 __pycache__/
 saved_models
 venv
 .conda
+models/**/*.zip
