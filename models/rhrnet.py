@@ -66,9 +66,9 @@ class Log_Cosh_Loss(torch.nn.Module):
 
 if __name__ == "__main__":
     import yaml
-    from Arg_Parser import Recursive_Parse
+    from rhrnetdir.Arg_Parser import Recursive_Parse
     hp = Recursive_Parse(yaml.load(
-        open('Hyper_Parameters.yaml', encoding='utf-8'),
+        open('models/rhrnetdir/rhrnet_hyperparameters.yaml', encoding='utf-8'),
         Loader=yaml.Loader
         ))  
     net = RHRNet(hp)
