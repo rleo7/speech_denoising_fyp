@@ -4,6 +4,7 @@ channels:
 dependencies:
   - python=3.12.0
   - ffmpeg=6.1.1
+  - nvidia/label/cuda-12.4.0::cuda
   - ipykernel
   - pip
   - pip:
