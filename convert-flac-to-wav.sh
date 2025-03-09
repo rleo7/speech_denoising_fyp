@@ -1,0 +1,1 @@
+find . -iname "*.flac" -exec bash -c 'D=$(dirname {}); B=$(basename -s ".flac" {}); ffmpeg -i {} -ar 16000 -ac 1 -acodec pcm_s16le $D/$B.wav && rm -f {}' \;
