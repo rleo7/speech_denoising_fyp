@@ -1,9 +1,9 @@
 import torch
 import torch.nn as nn
 
-from waveunetdir.crop import centre_crop
-from waveunetdir.resample import Resample1d
-from waveunetdir.conv import ConvLayer
+from models.waveunetdir.crop import centre_crop
+from models.waveunetdir.resample import Resample1d
+from models.waveunetdir.conv import ConvLayer
 
 class UpsamplingBlock(nn.Module):
     def __init__(self, n_inputs, n_shortcut, n_outputs, kernel_size, stride, depth, conv_type, res):
