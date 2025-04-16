@@ -1,17 +1,10 @@
 Sound:
-    Sample_Rate: 24000    
+    Sample_Rate: 16000    
 
 Model:
     GRU_Size: [2, 128, 256, 512, 256, 128]
     Step_Ratio: [0.5, 0.5, 0.5, 2.0, 2.0, 2.0]
     Residual: [null, null, null, null, 2, 1]
-
-STFT_Loss:
-    Resolution:
-        FFT_Sizes: [1024, 2048, 512]
-        Shfit_Lengths: [120, 240, 50]
-        Win_Lengths: [600, 1200, 240]
-    Weight: 1.0e-5
 
 Train:
     Train_Pattern:
