@@ -1,1 +1,2 @@
+# Linux
 find . -iname "*.wav" -exec bash -c 'D=$(dirname {}); B=$(basename -s ".wav" {}); ffmpeg -i {} -ar 16000 -ac 1 -acodec pcm_s16le $D/$B_.wav && rm -f {} && mv $D/$B_.wav {}' \;
